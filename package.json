@@ -1,9 +1,9 @@
 {
   "name": "generator-vintage-bundle",
-  "version": "0.8.3",
+  "version": "0.1.1",
   "description": "Modern front-end workflow generator",
-  "homepage": "http://...",
-  "repository": "...",
+  "homepage": "https://github.com/Vintage-web-production",
+  "repository": "https://github.com/Vintage-web-production/vintage-bundle",
   "main": "generators/index.js",
   "keywords": [
     "yeoman-generator",
@@ -12,7 +12,8 @@
     "ES6",
     "ES7",
     "SASS",
-    "Pug"
+    "Pug",
+    "Mustache"
   ],
   "files": [
     "generators"
@@ -22,6 +23,13 @@
     "email": "shapovalov.vitali.v@gmail.com",
     "url": "https://github.com/vitalishapovalov"
   },
+  "contributors": [
+    {
+      "name": "Alexander Antonyuk",
+      "email": "as.antonuk@gmail.com",
+      "url": "https://antonyuk.space"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",

@@ -1,29 +1,27 @@
-# generator-vintage-frontend
+# generator-vintage-bundle
 
 [![NPM version][npm-image]][npm-url]
 ![][license-url]
 
 Yeoman generator for modern front-end apps.
 
-It is recommended to use [vintage-cli](https://github.com/vintage-web-production/vintage-cli/) for updating/running/building generated project.
-
 ## Prerequisites ##
 
 ##### Install [yeoman](http://yeoman.io/):
 `npm install -g yo`
 
-##### Install [generator-vintage-frontend](https://www.npmjs.com/package/generator-vintage-frontend):
-`npm install -g generator-vintage-frontend`
+##### Install [generator-vintage-bundle](https://www.npmjs.com/package/generator-vintage-bundle):
+`npm install -g generator-vintage-bundle`
 
 > prepend with `sudo` if you are running on `*nix` OS.
 
-## Use generator-vintage-frontend ##
+## Use generator-vintage-bundle ##
 
-`yo vintage-frontend`
+`yo vintage-bundle`
 
 > Answer questions
 
-![vintage-frontend installation](http://i.imgur.com/u0QQ4cn.jpg "vintage-frontend questions")
+![vintage-bundle installation](http://i.imgur.com/u0QQ4cn.jpg "vintage-frontend questions")
 
 Done!
 
@@ -32,19 +30,32 @@ Done!
 Start development
 
 ```
-npm run development
+npm run development 
 ```
+or
+```
+npm start
+```
+or
+```
+npm run dev
+```
+
 
 Build production bundle
 
 ```
 npm run production
 ```
+or
+```
+npm run prod
+```
 
 ## License ##
 
-[MIT License](https://github.com/Vintage-web-production/generator-vintage-frontend/blob/master/LICENSE)
+[MIT License](https://github.com/Vintage-web-production/generator-vintage-bundle/blob/master/LICENSE)
 
-[npm-url]: https://www.npmjs.com/package/generator-vintage-frontend
+[npm-url]: https://www.npmjs.com/package/generator-vintage-bundle
 [npm-image]: https://badge.fury.io/js/generator-vintage-frontend.svg
 [license-url]: https://img.shields.io/npm/l/express.svg
