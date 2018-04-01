@@ -54,8 +54,8 @@ npm run prod
 
 ## License ##
 
-[MIT License](https://github.com/Vintage-web-production/generator-vintage-bundle/blob/master/LICENSE)
+[MIT License](https://github.com/Vintage-web-production/vintage-bundle/blob/master/LICENSE)
 
 [npm-url]: https://www.npmjs.com/package/generator-vintage-bundle
-[npm-image]: https://badge.fury.io/js/generator-vintage-frontend.svg
+[npm-image]: https://badge.fury.io/js/generator-vintage-bundle.svg
 [license-url]: https://img.shields.io/npm/l/express.svg
