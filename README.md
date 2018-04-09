@@ -3,7 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 ![][license-url]
 
-Yeoman generator for modern front-end apps.
+Simple and light frontend Yeoman generator.
 
 ## Prerequisites ##
 
@@ -30,26 +30,13 @@ Done!
 Start development
 
 ```
-npm run development 
-```
-or
-```
 npm start
 ```
-or
-```
-npm run dev
-```
-
 
 Build production bundle
 
 ```
-npm run production
-```
-or
-```
-npm run prod
+npm run build
 ```
 
 ## License ##

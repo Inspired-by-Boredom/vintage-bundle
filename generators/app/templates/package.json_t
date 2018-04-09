@@ -1,13 +1,12 @@
 {
   "name": "<%= _.kebabCase(name) %>",
-  "version": "0.8.3",
+  "version": "0.0.0",
   "description": "<%= description %>",
   "scripts": {
     "start": "cross-env NODE_ENV=development gulp",
     "development": "cross-env NODE_ENV=development gulp",
-    "dev": "cross-env NODE_ENV=development gulp",
     "production": "cross-env NODE_ENV=production gulp",
-    "prod": "cross-env NODE_ENV=production gulp",
+    "build": "cross-env NODE_ENV=production gulp",
     "compileDocs": "jsdoc ./src -r -d docs -c jsdoc.json",
     "openDocs": "start ./docs/index.html"
   },<% if (jquery) { %>
